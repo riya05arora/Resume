@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/60e8de9afb.js" crossorigin="anonymous"></script>
+   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+    
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Designer</p>
+                <h1> Hi, I'm <span>Riya</span><br> Arora From India</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="./2nd image.jpg">
+
+                </div>
+                <div class="col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus facere cupiditate excepturi fugit assumenda quis tenetur ab suscipit molestiae voluptatibus labore quas quod quam quibusdam praesentium maxime, non placeat aut.</p>
+                
+                <div  class="tabs">
+                    <p class="tablinks active" onclick="opentab('skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tabcontents activetab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing Web Interface</li>
+                        <li><span>Java</span><br>Java Development</li> 
+                        <li><span>AI/ML</span><br>Developing chabots </li>
+                    </ul>
+                </div>
+
+                <div class="tabcontents"id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>B.Tech from  Vellore Institute Of Technology</li>
+                        <li><span>2021</span><br>Higher Secondary Education, Holy Family Convent School,Haryana</li> 
+                        <li><span>2019</span><br>Secondary Education,Om Public School,Haryana </li>
+                    </ul>
+                </div>
+                
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------Projects------->
+    <div id="projects">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-child"></i>
+                <h2>Body Language Detector</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorem facere, expedita ipsam blanditiis voluptatum esse dicta amet sapiente in exercitationem maxime ea saepe rerum, modi suscipit temporibus! Dicta, delectus.</p><br>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-thin fa-shelves"></i>
+                <h2>Inventory Management System</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorem facere, expedita ipsam blanditiis voluptatum esse dicta amet sapiente in exercitationem maxime ea saepe rerum, modi suscipit temporibus! Dicta, delectus.</p><br>
+                <a href="#">Learn More </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Netflix Clone</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolorem facere, expedita ipsam blanditiis voluptatum esse dicta amet sapiente in exercitationem maxime ea saepe rerum, modi suscipit temporibus! Dicta, delectus.</p><br>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-----------------------------Certifications-------------------->
+    <div id="certifications">
+        <div class="container">
+            <div class="subtitle">My Certifications</div>
+            <div class="certification-list">
+                <div class="cert">
+                    <img src="./body_language.jpg">
+                    <div class="layer"><h3>Artificial Intelligence and Machine Learning</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quam cupiditate quas numquam porro? Debitis nulla sunt cum, id esse, illum, ad corrupti nemo rerum enim aliquam fugit nostrum dignissimos.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                </div>
+                <div class="cert">
+                    <img src="./inventory.jpg">
+                    <div class="layer"><h3>Google Cloud Digital Leader</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quam cupiditate quas numquam porro? Debitis nulla sunt cum, id esse, illum, ad corrupti nemo rerum enim aliquam fugit nostrum dignissimos.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                </div>
+                <div class="cert">
+                    <img src="./body_language.jpg">
+                    <div class="layer"><h3>Artificial Intelligence and Machine Learning</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quam cupiditate quas numquam porro? Debitis nulla sunt cum, id esse, illum, ad corrupti nemo rerum enim aliquam fugit nostrum dignissimos.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+       
+
+    </div>
+     
+    <!---------------contact !-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class ="subtitle">Contact Me</h1>
+                    <p><i class="fa-thin fa-paper-plane-top"></i>abc@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                       
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder ="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright"><p>Copyright &copy; Riya. Made with <i class="fa-solid fa-heart"></i></p>
+        
+        </div>
+    <script src="./main.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxpwXThBuQXcjdi2srhZGHsaAdMrDQJ2UozpRDdCKJDMI2mmGL3fpgkOZBc76gU_zPu/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById(msg)
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHtml="Message Sent Successfully";
+                setTimeout(function(){
+                    msg.innerHtml=""
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
